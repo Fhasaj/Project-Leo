@@ -107,16 +107,18 @@ Use the `README.md` to get started.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get started download the release and run the server exe if it is initial start then it will make you go trough a wizard to set up the server as well as NGINX. Once done you can run the client exe as well as going to the domain or IP address you chose when creating the server config file. 
+
+If you are cloning the repo then you can follow the steps below.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You will need to have downloaded and installed the following packages;
+
+1. NodeJS
+2. NGINX
+3. Electron
+4. (Optional) Docker
 
 ### Installation
 
@@ -125,19 +127,36 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Fhasaj/Project-Leo.git
    ```
-3. Install NPM packages
+3. Go into sever folder 
+   ```sh
+   cd /server/
+   ``` 
+4. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+  
+5. Go start the Server 
+   ```sj
+   npm start
+   ```   
+6. Go into client folder 
+   ```sh
+   cd /client/
+   ``` 
+7. Install NPM packages
+   ```sh
+   npm install
+   ```
+  
+8. Go start the Server 
+   ```sj
+   npm start
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
